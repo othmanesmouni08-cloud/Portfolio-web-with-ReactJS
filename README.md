@@ -1,16 +1,73 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with **React**.  
+It presents my profile, skills, projects, certifications, and contact information in a clean, modern, and responsive layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+(Optional)  
+https://your-portfolio-link.com
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **React** – JavaScript library for building user interfaces  
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **Node.js & npm**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Optional libraries (depending on your project):
+- React Router
+- Framer Motion
+- EmailJS
+- Bootstrap / Tailwind CSS
+
+---
+
+## 📁 Project Structure
+
+src/
+│
+├── components/
+│ ├── Header.jsx
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── Skills.jsx
+│ ├── Projects.jsx
+│ └── Contact.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── About.jsx
+│ └── NotFound.jsx
+│
+├── assets/
+│ ├── images/
+│ └── icons/
+│
+├── App.jsx
+├── index.js
+├── App.css
+└── index.css
+
+
+---
+
+## ✨ Features
+
+- Fully responsive design (mobile, tablet, desktop)
+- Single Page Application (SPA)
+- Smooth navigation
+- Projects showcase with details
+- Skills and certifications section
+- Contact form
+- Clean and modern UI
+
+---
+
+## ⚙️ Installation and Setup
+
+Follow the steps below to run the project locally.
